@@ -57,7 +57,7 @@ create20WindowBtn?.addEventListener("click", async () => {
             url: "https://www.example.com/",
             preloadScripts: [
                 {
-                  url: "https://raw.githubusercontent.com/ratchadj/workspace-poc/master/preload.js",
+                  url: "https://raw.githack.com/plmzphoebus/openfin-vanila/main/dist/preloads/preload.js",
                 },
               ],
         })
@@ -96,7 +96,7 @@ const createBrowserWindow = (url = ''): Promise<
                   url: url || "https://www.example.com/",
                   preloadScripts: [
                     {
-                      url: "https://raw.githubusercontent.com/ratchadj/workspace-poc/master/preload.js",
+                      url: "https://raw.githack.com/plmzphoebus/openfin-vanila/main/dist/preloads/preload.js",
                       mandatory: true,
                       state: "succeeded",
                     },

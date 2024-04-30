@@ -17,7 +17,7 @@
       "_logManagement": {
         "enabled": true
       },
-      "providerUrl": "http://localhost:3000/",
+      "providerUrl": "https://raw.githack.com/plmzphoebus/openfin-vanila/main/dist/index.html",
       "preventQuitOnLastWindowClosed": true,
       "contextMenu": true,
       "viewProcessAffinityStrategy": "different",
