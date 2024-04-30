@@ -1,0 +1,29 @@
+{
+  "name": "openfin-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "openfin -l --config=http://localhost:3000/public/manifest.json",
+    "pm": "openfin --launch --config https://cdn.openfin.co/release/apps/openfin/processmanager/app.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/openfin": "^51.0.6",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vite-plugin-static-copy": "^1.0.3"
+  },
+  "dependencies": {
+    "@openfin/core": "^34.78.80",
+    "@openfin/workspace-platform": "^17.2.14",
+    "nanoid": "^5.0.7",
+    "uuid": "^9.0.1"
+  }
+}

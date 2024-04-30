@@ -1,0 +1,39 @@
+{
+    "offlineAccess": true,
+    "licenseKey": "30d861ec-50b9-47b2-825c-1dbe6bfe8cc9",
+    "devtools_port": 9090,
+    "runtime": {
+      "version": "34.118.78.80",
+      "arguments": ""
+    },
+    "snapshot": {
+      "windows": []
+    },
+    "platform": {
+      "uuid": "10dd4600-afac-410f-b793-0ce3cac690c4",
+      "name": "OpenFIn Tester",
+      "autoShow": true,
+      "_enableAppLogging": true,
+      "_logManagement": {
+        "enabled": true
+      },
+      "providerUrl": "http://localhost:3000/",
+      "preventQuitOnLastWindowClosed": true,
+      "contextMenu": true,
+      "viewProcessAffinityStrategy": "different",
+      "enableJumpList": true,
+      "defaultViewOptions": {
+        "permissions": {
+          "webAPIs": [
+            "notifications",
+            "audio",
+            "video",
+            "clipboard-read",
+            "clipboard-sanitized-write",
+            "usb",
+            "hid"
+          ]
+        }
+      }
+    }
+  }
