@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div>
+        <h1>Login Page</h1>
+        <h3>document.location</h3>
+        <div>
+            Redirect to logged In Page with location.replace <button id="redirect-replace">Go Replace!</button><br />
+            Redirect to logged In Page with location.assign <button id="redirect-assign">Go Assign!</button><br />
+            Redirect to logged In Page with location.href <button id="redirect-href">Go Href!</button>
+        </div>
+        <h3>window.location</h3>
+        <div>
+            Redirect to logged In Page with location.replace <button id="window-redirect-replace">Go Replace!</button><br />
+            Redirect to logged In Page with location.assign <button id="window-redirect-assign">Go Assign!</button><br />
+            Redirect to logged In Page with location.href <button id="window-redirect-href">Go Href!</button>
+        </div>
+        <h3>document.location different domains</h3>
+        <div>
+            Redirect to logged In Page with location.replace <button id="redirect-replace-diff-domain">Go Replace Example domain!</button><br />
+            Redirect to logged In Page with location.assign <button id="redirect-assign-diff-domain">Go Assign Example domain!</button><br />
+            Redirect to logged In Page with location.href <button id="redirect-href-diff-domain">Go Href Example domain!</button>
+        </div>
+    </div>
+    <script>
+        const replaceBtn = document.getElementById('redirect-replace');
+        const assignBtn = document.getElementById('redirect-assign');
+        const hrefBtn = document.getElementById('redirect-href');
+        replaceBtn.addEventListener('click', () => {
+            document.location.replace('loggedIn.html');
+        });
+        assignBtn.addEventListener('click', () => {
+            document.location.assign('loggedIn.html');
+        });
+        hrefBtn.addEventListener('click', () => {
+            document.location.href = 'loggedIn.html';
+        });
+
+        const windowReplaceBtn = document.getElementById('window-redirect-replace');
+        const windowAssignBtn = document.getElementById('window-redirect-assign');
+        const windowHrefBtn = document.getElementById('window-redirect-href');
+        windowReplaceBtn.addEventListener('click', () => {
+            location.replace('loggedIn.html');
+        });
+        windowAssignBtn.addEventListener('click', () => {
+            location.assign('loggedIn.html');
+        });
+        windowHrefBtn.addEventListener('click', () => {
+            location.href = 'loggedIn.html';
+        });
+
+        const documentReplaceDiffDomainsBtn = document.getElementById('redirect-replace-diff-domain');
+        const documentAssignDiffDomainsBtn = document.getElementById('redirect-assign-diff-domain');
+        const documentHrefDiffDomainsBtn = document.getElementById('redirect-href-diff-domain');
+        documentReplaceDiffDomainsBtn.addEventListener('click', () => {
+            document.location.replace('https://www.example.com/');
+        });
+        documentAssignDiffDomainsBtn.addEventListener('click', () => {
+            document.location.assign('https://www.example.com/');
+        });
+        documentHrefDiffDomainsBtn.addEventListener('click', () => {
+            document.location.href = 'https://www.example.com/';
+        });
+    </script>
+</body>
+</html>

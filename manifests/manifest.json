@@ -12,12 +12,12 @@
     "platform": {
       "uuid": "10dd4600-afac-410f-b793-0ce3cac690c4",
       "name": "OpenFIn Tester",
-      "autoShow": true,
+      "autoShow": false,
       "_enableAppLogging": true,
       "_logManagement": {
         "enabled": true
       },
-      "providerUrl": "https://raw.githack.com/plmzphoebus/openfin-vanila/main/dist/index.html",
+      "providerUrl": "https://raw.githack.com/phoebus-chinnawat/openfin-vanila/reproduce-err-aborted/dist/index.html",
       "preventQuitOnLastWindowClosed": true,
       "contextMenu": true,
       "viewProcessAffinityStrategy": "different",

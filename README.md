@@ -9,5 +9,5 @@ npm install -g openfin-cli
 
 ## Launch Project  
 ```
-openfin -l --config=https://raw.githack.com/plmzphoebus/openfin-vanila/main/dist/public/manifest.json
+openfin -l --config=https://raw.githack.com/phoebus-chinnawat/openfin-vanila/reproduce-err-aborted/dist/public/manifest.json
 ```
