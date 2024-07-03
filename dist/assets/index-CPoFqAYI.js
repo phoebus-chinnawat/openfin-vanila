@@ -58,7 +58,7 @@ const start = async () => {
     }
   });
   try {
-    await loginWindow.navigate("https://raw.githack.com/phoebus-chinnawat/openfin-vanila/reproduce-err-aborted/dist/login.html");
+    await loginWindow.navigate("https://workspace.ppe.refinitiv.com/public/heimdall/logout/logout.html?nextPath=/rap/workspace-login/");
   } catch (err) {
     console.error("navigate failed", err);
   }

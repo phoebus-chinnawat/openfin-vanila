@@ -17,7 +17,7 @@
       "_logManagement": {
         "enabled": true
       },
-      "providerUrl": "https://raw.githack.com/phoebus-chinnawat/openfin-vanila/reproduce-err-aborted/dist/index.html",
+      "providerUrl": "https://raw.githack.com/phoebus-chinnawat/openfin-vanila/ms-login/dist/index.html",
       "preventQuitOnLastWindowClosed": true,
       "contextMenu": true,
       "viewProcessAffinityStrategy": "different",
